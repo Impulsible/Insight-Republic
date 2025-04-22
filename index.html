@@ -1,0 +1,120 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insight Republic</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/fb39b6d9-6fed-4d08-b226-a3498db5038b.png" type="image/png">
+</head>
+
+<body>
+ <header class="main-header">
+  <div class="logo-container">
+    <div class="logo">Insight Republic</div>
+    <div class="subtitle">Illuminating Ideas. Empowering Minds.</div>
+  </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="New.html">New</a></li>
+        <li><a href="popular.html">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </nav>
+    
+    <button id="darkModeToggle" aria-label="Toggle dark mode">🌙</button>
+  </header>
+   </section>
+
+  <main class="main-grid">
+    <section class="feature">
+      <img src="image-web-3-mobile.jpg" alt="Feature image">
+      <div class="feature-text">
+        <h1>The Bright Future of Web 3.0?</h1>
+        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </section>
+
+    <aside class="sidebar">
+      <h2 class="new-label">New</h2>
+      <ul>
+        <li><strong>Hydrogen VS Electric Cars</strong><br><small>Will hydrogen-fueled cars ever catch up to EVs?</small></li>
+        <li><strong>The Downsides of AI Artistry</strong><br><small>What are the possible adverse effects of on-demand AI image generation?</small></li>
+        <li><strong>Is VC Funding Drying Up?</strong><br><small>Private funding by VC firms is down 50% YOY. We take a look at what that means.</small></li>
+      </ul>
+    </aside>
+    <section class="highlights">
+      <a href="popular.html#retro-pcs" class="highlight-link">
+        <article class="highlight-card">
+          <img src="images/image-retro-pcs.jpg" alt="Retro PCs">
+          <div>
+            <span class="highlight-number">01</span>
+            <h3>Reviving Retro PCs</h3>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </article>
+      </a>
+    
+      <a href="popular.html#top-laptops" class="highlight-link">
+        <article class="highlight-card">
+          <img src="images/image-top-laptops.jpg" alt="Top laptops">
+          <div>
+            <span class="highlight-number">02</span>
+            <h3>Top 10 Laptops of 2022</h3>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </article>
+      </a>
+    
+      <a href="popular.html#gaming-growth" class="highlight-link">
+        <article class="highlight-card">
+          <img src="images/image-gaming-growth.jpg" alt="Gaming">
+          <div>
+            <span class="highlight-number">03</span>
+            <h3>The Growth of Gaming</h3>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </article>
+      </a>
+    </section>
+
+    <section class="testimonials">
+      <h3>What Our Readers Say</h3>
+      <div class="testimonial">
+        <p>"Insight Republic always has the freshest takes and tech insights. I love reading their updates!"</p>
+        <span>&mdash; Aisha M., Lagos</span>
+      </div>
+      <div class="testimonial">
+        <p>"A daily read for me. Insightful, informative, and engaging."</p>
+        <span>&mdash; Daniel O., Abuja</span>
+      </div>
+    </section>
+  </main>
+  <!-- Modal Trigger Button -->
+<button id="openModal" class="modal-btn">📰 Special Announcement</button>
+
+<!-- Modal Structure -->
+<div id="announcementModal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal" class="close">&times;</span>
+    <h2>Breaking News</h2>
+    <p>This is an exclusive announcement for Insight Republic readers!</p>
+  </div>
+</div>
+
+  <button id="backToTop" class="back-to-top">⬆ Top</button>
+
+  <footer>
+    &copy; <span id="year">2025</span> Insight Republic. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
